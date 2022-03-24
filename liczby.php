@@ -27,7 +27,7 @@
 
         $srednia = 0;
         if(count($tablica)) {
-            $srednia = array_sumI($tablica) / count($tablica);
+            $srednia = array_sum($tablica) / count($tablica);
 
         }
         print_r("Średnia liczba to $srednia");
