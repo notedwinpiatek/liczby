@@ -23,7 +23,6 @@
 
                 print_r("Liczba nieparzysta $i \n");
                 }
-            
         }
 
         $srednia = 0;
@@ -36,7 +35,7 @@
         $suma = array_sum($tablica);
         print_r("Suma liczb: $suma");
 
-        //Edwin Piątek
+        //Edwin Piątek 3AG
 
         ?>
 
