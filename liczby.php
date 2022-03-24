@@ -36,7 +36,7 @@
         $suma = array_sum($tablica);
         print_r("Suma liczb: $suma");
 
-        //Wmiarę łatwe
+        //Edwin Piątek
 
         ?>
 
