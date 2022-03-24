@@ -12,8 +12,8 @@
 
         $tablica = array();
 
-        for($i=1; $i <=20; $i++) {
-            $liczba = rand(1,20);
+        for($i=1; $i <=5; $i++) {
+            $liczba = rand(1,8);
             array_push($tablica, $liczba);
             if($i%2!=1) {
 
@@ -21,8 +21,8 @@
 
                 } else {
 
-                print_r("Liczba nieparzysta $i \n") }
-            
+                print_r("Liczba nieparzysta $i \n");
+                }
             
         }
 
