@@ -13,7 +13,7 @@
         $tablica = array();
 
         for($i=1; $i <=5; $i++) {
-            $liczba = rand(1,8);
+            $liczba = rand(1,20);
             array_push($tablica, $liczba);
             if($i%2!=1) {
 
