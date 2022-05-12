@@ -10,16 +10,16 @@
 
 <?php
 
-    $board = array()
+    $board = array();
 //losowanie 5 liczb od 0 do 20
-    for($i=1; $i <=20; $i++) {
+    ($i=1; $i <=20; $i++) {
         $number = rand(1,20);
         array_push($board, $number);
         if($i%2!=1) {
 //sprawdzanie czy liczba jest parzysta
             print_r("Liczba parzysta $i \n");
         } else {
-            print_r("Liczba nieparzysta $i \n")
+            print_r("Liczba nieparzysta $i \n");
         }
     }
 //obliczanie sumy liczb
