@@ -4,45 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Edwin Piątek - Poprawa samodzielna </title>
 </head>
 <body>
-    <br>
-        <pre>
-        <?php
 
-        $tablica = array();
+<?php
 
-        for($i=1; $i <=5; $i++) {
-            $liczba = rand(1,20);
-            array_push($tablica, $liczba);
-            if($i%2!=1) {
-
-                print_r("Liczba parzysta $i \n");
-
-                } else {
-
-                print_r("Liczba nieparzysta $i \n");
-                }
+    $board = array()
+//losowanie 5 liczb od 0 do 20
+    for($i=1; $i <=20; $i++) {
+        $number = rand(1,20);
+        array_push($board, $number);
+        if($i%2!=1) {
+//sprawdzanie czy liczba jest parzysta
+            print_r("Liczba parzysta $i \n");
+        } else {
+            print_r("Liczba nieparzysta $i \n")
         }
+    }
+//obliczanie sumy liczb
+    $sum = array_sum($board);
+    print_r("Suma wylosowanych liczb: $sum");
 
-        $srednia = 0;
-        if(count($tablica)) {
-            $srednia = array_sum($tablica) / count($tablica);
-
-        }
-        print_r("Średnia liczba to $srednia");
-
-        $suma = array_sum($tablica);
-        print_r("Suma liczb: $suma");
-
-        //Edwin Piątek 3AG
-
-        ?>
-
-
-
-
-    
+?> 
 </body>
 </html>
